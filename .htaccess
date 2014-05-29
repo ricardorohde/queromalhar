@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteRule ^([^/]*)$ $1.php
+	RewriteRule ^noticias/(.*)/(.*)$ /queromalhar/noticia_detalhes.php?registro=$1&titulo=$3
+	RewriteRule ^eventos/(.*)/(.*)$ /queromalhar/evento_detalhes.php?registro=$1&titulo=$3
+	RewriteRule ^historias/(.*)/(.*)$ /queromalhar/historia_detalhes.php?registro=$1&titulo=$3
+	RewriteRule ^dicas/(.*)/(.*)$ /queromalhar/dica_detalhes.php?registro=$1&titulo=$3
+	RewriteRule ^academias/(.*)/(.*)$ /queromalhar/academia.php?registro=$1&titulo=$3
+	RewriteRule ^fisioterapeutas/(.*)/(.*)$ /queromalhar/fisioterapeuta.php?registro=$1&titulo=$3
+	RewriteRule ^lojas-esportivas/(.*)/(.*)$ /queromalhar/loja_esportiva.php?registro=$1&titulo=$3
+	RewriteRule ^nutricionistas/(.*)/(.*)$ /queromalhar/nutricionista.php?registro=$1&titulo=$3
+	RewriteRule ^personal-trainers/(.*)/(.*)$ /queromalhar/personal_trainer.php?registro=$1&titulo=$3
+	RewriteRule ^spas/(.*)/(.*)$ /queromalhar/spa.php?registro=$1&titulo=$3
+	RewriteRule ^mensagem/(.*)$ /queromalhar/mensagem.php?msg=$1
+</IfModule>

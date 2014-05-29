@@ -1,0 +1,491 @@
+body {
+	background-position:top center;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+}
+
+#banner {
+    position: absolute;
+	float: center;
+	margin-left: auto;
+    margin-right: auto;
+	width:605px;
+	height:100px;
+	z-index: inherit;
+	left: 170px;
+	top: 270px;
+}
+
+#banner_submarino{
+	display:block;
+	position:absolute;//A posição fica absoluta
+	left:400px;//Aqui é a posição a esquerda
+	top:400px;//e aqui é em relação ao topo ai é só ajustar a posição que você irá precisar
+}
+
+.botao_painel {
+	border-right: #FFFFFF 1px solid; 
+	border-top: #FFFFFF 1px solid; 
+	font-weight: bold; 
+	font-size: 11px; 
+	border-LEFT: #FFFFFF 1px solid; 
+	color: #333333; 
+	border-bottom: #FFFFFF 1px solid; 
+	font-family: Tahoma, Arial, Helvetica, san-serif; 
+	background-color: #FFFFFF; 
+	text-align: center;
+}
+
+.data {
+	font-size: 10px; 
+	color: #C40000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	font: bold;
+}
+
+.noticia_data {
+	font-size: 11px; 
+	color: #008080; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	font: bold;
+}
+
+.empresa {
+	font-size: 16px; 
+	color:#333333; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font-weight:bold;
+}
+
+.pagina {
+	font-size: 10px; 
+	color: #008080; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+a.paginacao {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #008080;
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+a.paginacao:hover {
+	font-size: 12px;
+	color: #008080; 
+}
+
+.titulo_adm {
+	font-size: 14px; 
+	color:#FF8F28; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+.noticia_titulo {
+	font-size: 14px; 
+	color: #C40000; 
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none; 
+	font: bold;
+}
+
+.botao {
+	border-right: #FFFFFF 1px solid; 
+	border-top: #FFFFFF 1px solid; 
+	font-weight: bold; 
+	font-size: 11px; 
+	border-LEFT: #FFFFFF 1px solid; 
+	color: #FFFFFF; 
+	border-bottom: #FFFFFF 1px solid; 
+	font-family: Tahoma, Arial, Helvetica, san-serif; 
+	background-color: #FF8F28; 
+	text-align: center;
+}
+
+A.link {
+	font-size: 9px; 
+	color : #000000;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+}
+
+A.link:hover {
+	font-size: 9px; 
+	color : #333333;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+}
+
+
+A.pesquisa {
+	font-size: 12px; 
+	color : #000000;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+}
+
+A.pesquisa:hover {
+	font-size: 12px; 
+	color : #333333;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+}
+
+
+A.link_adm {
+	font-size: 12px; 
+	color : #FFB979;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+A.link_adm:hover {
+	font-size: 12px; 
+	color : #FF8F28;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+	font-size: 12px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+.enquete_pergunta {
+	font-size: 10px; 
+	color: #008080; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+.enquete_resposta {
+	font-size: 10px; 
+	color: #C40000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+.enquete_resultado {
+	font-size: 10px; 
+	color: #333333; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+.mtexto {
+	font-size: 12px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font: bold;
+}
+
+.mensagem {
+	font-size: 13px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+.preco {
+	font-size: 11px; 
+	color: #FF0000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font: bold;
+}
+
+A.noticia {
+	font-size: 10px; 
+	color: #FF8F28; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font: bold;
+}
+
+A.noticia:hover {
+	font-size: 11px; 
+	color: #FF8F28; 
+	text-decoration: none;
+	font: bold;
+}
+
+A.noticia_link {
+	font-size: 9px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font: bold;
+}
+
+A.noticia_link:hover {
+	font-size: 10px; 
+	color: #333333; 
+	text-decoration: none;
+	font: bold;
+}
+
+A.dica_link {
+	font-size: 9px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font: bold;
+}
+
+A.dica_link:hover {
+	font-size: 10px; 
+	color: #333333; 
+	text-decoration: none;
+	font: bold;
+}
+
+.dica_data {
+	font-size: 11px; 
+	color: #008080; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	font: bold;
+}
+
+.dica_titulo {
+	font-size: 14px; 
+	color: #C40000; 
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none; 
+	font: bold;
+}
+
+.autor {
+ 	font-size: 12px; 
+	color: #008080; 
+	font-family: Trebuchet MS, Arial, Verdana, sans-serif;  
+	font: bold; 
+	text-decoration: none;
+}
+
+.box {
+	font-size: 11px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font: bold;
+}
+
+.perfil {
+	font-size: 12px; 
+	color: #000000; 
+	font-family: Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;  
+	font-weight: bold;
+}
+
+.texto {
+	font-size: 11px; 
+	color: #333333; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+.texto_servico {
+	font-size: 11px; 
+	color: #275252; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+.titulo_servico {
+	font-size: 12px; 
+	color: #FF6600; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font: bold;
+}
+
+.evento_titulo {
+	font-size: 11px; 
+	color: #008080; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	font: bold;
+}
+
+.evento_local {
+	font-size: 10px; 
+	color: #C40000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+.evento_data {
+	font-size: 10px; 
+	color: #333333; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	font: bold;
+}
+
+.evento_informacao {
+	font-size: 11px; 
+	color: #333333; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+A.evento_link {
+	font-size: 9px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+A.evento_link:hover {
+	font-size: 10px; 
+	color: #333333; 
+	text-decoration: none;
+}
+
+.evento_nome {
+	font-size: 14px; 
+	color: #C40000; 
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none; 
+	font: bold;
+}
+
+.cadastro_titulo {
+	font-size: 14px; 
+	color:#C40000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+
+.alerta {
+	font-size: 12px; 
+	color:#FF0000;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+.cadastro_titulop {
+	font-size: 12px; 
+	color:#C40000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+.cadastro_subtitulo {
+	font-size: 13px; 
+	color:#008080; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+.cadastro_formulario {
+	font-size: 12px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+.cadastro_box {
+	font-size: 10px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font: bold;
+}
+
+A.cadastro_email {
+	font-size: 11px; 
+	color : #008080;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+A.cadastro_email:hover {
+	font-size: 12px; 
+	color : #008080;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+A.historia_link {
+	font-size: 9px; 
+	color: #000000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font: bold;
+}
+
+A.historia_link:hover {
+	font-size: 10px; 
+	color: #333333; 
+	text-decoration: none;
+	font: bold;
+}
+
+.historia_data {
+	font-size: 10px; 
+	color: #008080; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	font: bold;
+}
+
+.historia_titulo {
+	font-size: 14px; 
+	color: #C40000; 
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none; 
+	font: bold;
+}
+
+.historia_texto {
+	font-size: 10px; 
+	color: #333333; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+
+A.servico {
+	font-size: 11px; 
+	color: #397980; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font: bold;
+}
+
+A.servico:hover {
+	color: #17585E; 
+	text-decoration: underline;
+	font: bold;
+}
+
+.status {
+	font-size: 12px; 
+	color: #C40000; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	font-weight: bold;
+}
